@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+header, footer, section {
+    padding: 0 200px;
+}
+header, footer, .hero {
+    background-color: #1F2937;
+}
+header > .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.hero > .text > .main-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+header > .link-text, .hero > .text > .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
