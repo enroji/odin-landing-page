@@ -5,14 +5,13 @@ body {
     margin: 0;
 }
 nav, .hero {
-    margin: 0 100px;
+    margin: 0 200px;
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    margin: 0 100px;
 }
 .hero {
     display: flex;
