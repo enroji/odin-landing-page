@@ -4,21 +4,21 @@ body {
     font-family: Roboto, sans-serif;
     margin: 0;
 }
-nav, .hero {
-    margin: 0 200px;
-}
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 300px;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 100px 0;
     gap: 20px;
+    padding: 50px 300px;
+    padding-bottom: 150px;
 }
 .first {
     background-color: #1F2937;
@@ -72,6 +72,118 @@ nav {
 }
 .hero-image {
     flex-shrink: 0;
+}
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 300px;
+}
+.item-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.information-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.item-subtext {
+    width: 150px;
+    text-align: center;
+}
+.item-image {
+    border-style: solid;
+    border-color: #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.third {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    padding: 50px;
+    max-width: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    margin: auto;
+}
+.quote-author {
+    margin: 0;
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin: 50px 0;
+    height: 150px;
+    width: 800px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+.fourth-title {
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 0;
+}
+.fourth-text {
+    margin: 0;
+    font-size: 20px;
+}
+.fourth-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+    font-size: 16px;
+    font-weight: bolder;
+
+    width: 100px;
+    height: 40px;
+
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F9FAF8;
+}
+.fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
 @media (max-width: 1000px) {
     .hero {
